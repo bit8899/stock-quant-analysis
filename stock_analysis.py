@@ -8,7 +8,7 @@ import os
 # ===================== Replace with your Tushare Token =====================
 TOKEN = "c796905ebfce0961493c222d2dd4b81a1169c54b173bfa8008140397"  # Example: TOKEN = "1234567890abcdef1234567890abcdef"
 STOCK_CODE = "600519.SH"  # Moutai stock code
-DAYS = 30  # Analyze 30 days data
+DAYS = 60  # Analyze 30 days data
 
 # ===================== 1. Initialize Tushare =====================
 ts.set_token(TOKEN)
